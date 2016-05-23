@@ -41,9 +41,11 @@ Website signup triggers gitub repo branch
 
 # Bits of Potentially Helpful Code
 
-List filenames of changes since last commit:
+List filenames of changes since your most recent commit:
 
-	git diff --name-only HEAD^
+	git diff --name-only HEAD^ HEAD
+	git diff --name-only HEAD^ # include uncommitted changes
+	git diff --name-only HEAD^ HEAD -- exercises # filter?
 
 Mocha grep
 
