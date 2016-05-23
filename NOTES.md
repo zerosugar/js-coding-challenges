@@ -26,6 +26,7 @@ Website signup triggers gitub repo branch
 
 * Is there a way to auto merge?
 * How to handle incorrect answers, additional commits
+* Will I need a separate repo for the source code to keep all the PR requests from people submitting challenges separate from the PR requests from people submitting new code? This probably isn't an MVP issue.
 
 # Roadmap
 
