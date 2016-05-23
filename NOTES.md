@@ -43,9 +43,13 @@ Website signup triggers gitub repo branch
 
 List filenames of changes since your most recent commit:
 
-	git diff --name-only HEAD^ HEAD # << I think I want this one
-	
+	# !! we need to use this one
+	# this covers both pull requests tests &
+	# this covers tests run by the test taker before committing
 	git diff --name-only HEAD^ # include uncommitted changes
+	
+	# leaving these as notes below, but I shouldn't need them
+	git diff --name-only HEAD^ HEAD # << I think I want this one
 	git diff --name-only HEAD^ HEAD -- exercises # filter?
 
 Mocha grep:
