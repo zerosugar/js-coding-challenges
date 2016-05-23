@@ -33,11 +33,20 @@ Website signup triggers gitub repo branch
 
 # Roadmap
 
-* Start with one toy problem
-* Get npm test working with only most recently changed files
+* Repo
+	* $ Start with one toy problem
+	* $ Get npm test working with only most recently changed files
+* Website
+	* Get it up and running
+	* Figure out Github API
+	* Simple login, login automatically creates your new branch
 * Add CONTRIBUTING.md document
   * Add documentation on the naming scheme of exercise vs test files
   * Provide a template for creating new exercises
+* Upgrades
+	* website: list of all problems
+	* website: ability to star good problems
+	* website: ability to search for problems by tag
 
 # Bits of Potentially Helpful Code
 
@@ -81,3 +90,5 @@ Mocha grep:
 	tar.gz
 	~% echo "${FILE##*.}"
 	gz
+
+[Passport Github](https://github.com/jaredhanson/passport-github)
