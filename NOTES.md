@@ -34,3 +34,13 @@ Website signup triggers gitub repo branch
 * Add CONTRIBUTING.md document
   * Add documentation on the naming scheme of exercise vs test files
   * Provide a template for creating new exercises
+
+# Bits of Potentially Helpful Code
+
+List filenames of changes since last commit:
+
+	git diff --name-only HEAD^
+
+Mocha grep
+
+	mocha --grep 'testFilter'
