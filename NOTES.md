@@ -54,6 +54,8 @@ Mocha grep:
 [Bash Introduction to if](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_07_01.html)
 
 	if [something == something]
+		then
+			# do stuff here
 	fi
 
 [Extracting filename in bash scripts](http://stackoverflow.com/questions/965053/extract-filename-and-extension-in-bash):
