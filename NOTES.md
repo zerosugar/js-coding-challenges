@@ -47,6 +47,23 @@ List filenames of changes since your most recent commit:
 	git diff --name-only HEAD^ # include uncommitted changes
 	git diff --name-only HEAD^ HEAD -- exercises # filter?
 
-Mocha grep
+Mocha grep:
 
 	mocha --grep 'testFilter'
+
+[Bash Introduction to if](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_07_01.html)
+
+	if [something == something]
+	fi
+
+[Extracting filename in bash scripts](http://stackoverflow.com/questions/965053/extract-filename-and-extension-in-bash):
+
+	~% FILE="example.tar.gz"
+	~% echo "${FILE%%.*}"
+	example
+	~% echo "${FILE%.*}"
+	example.tar
+	~% echo "${FILE#*.}"
+	tar.gz
+	~% echo "${FILE##*.}"
+	gz
