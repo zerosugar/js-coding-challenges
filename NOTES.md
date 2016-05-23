@@ -16,6 +16,9 @@ Coding Problems
 Github Repo for the problems
 Travis CI runs tests on pull requests
 
+* Tests in `tests` directory
+* Exercises in the `exercises` directory
+
 # Website
 
 Website to explain the process
