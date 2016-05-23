@@ -51,6 +51,13 @@ Mocha grep:
 
 	mocha --grep 'testFilter'
 
+[Bash Loops](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-7.html)
+
+	#!/bin/bash
+    for i in $( ls ); do
+	    echo item: $i
+    done
+
 [Bash Introduction to if](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_07_01.html)
 
 	if [something == something]
