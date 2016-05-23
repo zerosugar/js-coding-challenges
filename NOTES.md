@@ -43,7 +43,8 @@ Website signup triggers gitub repo branch
 
 List filenames of changes since your most recent commit:
 
-	git diff --name-only HEAD^ HEAD
+	git diff --name-only HEAD^ HEAD # << I think I want this one
+	
 	git diff --name-only HEAD^ # include uncommitted changes
 	git diff --name-only HEAD^ HEAD -- exercises # filter?
 
