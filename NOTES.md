@@ -30,4 +30,7 @@ Website signup triggers gitub repo branch
 # Roadmap
 
 * Start with one toy problem
-*
+* Get npm test working with only most recently changed files
+* Add CONTRIBUTING.md document
+  * Add documentation on the naming scheme of exercise vs test files
+  * Provide a template for creating new exercises
