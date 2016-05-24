@@ -93,4 +93,4 @@ Mocha grep:
 
 [Passport Github](https://github.com/jaredhanson/passport-github)
 
-[Github Basics of Authentication]
+[Github Basics of Authentication](https://developer.github.com/guides/basics-of-authentication/)
